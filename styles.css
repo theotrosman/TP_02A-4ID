@@ -7,7 +7,6 @@
 html, body {
   font-family: 'Segoe UI', sans-serif;
   scroll-behavior: smooth;
-  background: #fff;
   color: #111;
   overflow-x: hidden;
   width: 100%;
@@ -16,15 +15,14 @@ html, body {
 header {
   position: relative;
   height: 100vh;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-#bg-video {
+video {
   position: absolute;
   top: 0;
   left: 0;
@@ -34,6 +32,7 @@ header {
   z-index: -1;
   filter: brightness(0.4);
 }
+
 
 .header-content {
   z-index: 2;
@@ -183,41 +182,6 @@ main {
 .cta-button:hover {
   background: #00cfc7;
   transform: scale(1.05);
-}
-
-@media (max-width: 1024px) {
-  .feature {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .feature.alt {
-    flex-direction: column;
-  }
-
-  .feature-img img {
-    max-width: 90vw;
-  }
-
-  .feature-text h2 {
-    font-size: 32px;
-  }
-
-  .header-content h1 {
-    font-size: 60px;
-  }
-
-  .header-content p {
-    font-size: 20px;
-  }
-
-  .cta-section h2 {
-    font-size: 36px;
-  }
-
-  .cta-button {
-    font-size: 16px;
-  }
 }
 
 footer {
