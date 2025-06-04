@@ -40,6 +40,6 @@ Este sitio fue diseñado para destacar un producto innovador con estética sci-f
 
 ## ✨ Autores
 
-**Theo Trosman y Sebastián Calviño**  
+**Theo Trosman**  
 Estudiante de Informática – Escuela ORT (Almagro)  
 > *"Programo con lógica, diseño con estilo y siempre meto un toque de caos creativo."*
