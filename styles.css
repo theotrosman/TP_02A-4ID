@@ -57,14 +57,7 @@ video {
   text-shadow: 0 0 5px #000;
 }
 
-@keyframes neonPulse {
-  from {
-    text-shadow: 0 0 6px #000;
-  }
-  to {
-    text-shadow: 0 0 20px #000;
-  }
-}
+
 
 .intro-usecase {
   padding: 80px 20px;
@@ -144,10 +137,7 @@ main {
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
-.feature-img img:hover {
-  transform: scale(1.03);
-  box-shadow: 0 40px 100px rgba(0, 0, 0, 0.3);
-}
+
 
 .cta-section {
   background: #111;
@@ -167,7 +157,7 @@ main {
 }
 
 .cta-button {
-  background: #00fff7;
+  background: #ffffff;
   color: #111;
   padding: 16px 40px;
   border: none;
@@ -176,13 +166,10 @@ main {
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 0 10px #00fff7, 0 0 30px #00fff7;
+  box-shadow: 0 0 10px #ffffff, 0 0 30px #ffffff;
 }
 
-.cta-button:hover {
-  background: #00cfc7;
-  transform: scale(1.05);
-}
+
 
 footer {
   background: #000;
@@ -196,15 +183,12 @@ footer {
 footer p {
   max-width: 800px;
   margin: 0 auto;
-  color: #bbb;
+  color: #ffffff;
 }
 
 footer a {
-  color: #00fff7;
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
 }
 
-footer a:hover {
-  text-decoration: underline;
-}
